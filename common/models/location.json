@@ -1,0 +1,28 @@
+{
+  "name": "location",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fileName": {
+      "type": "string"
+    },
+    "lng": {
+      "type": "number",
+      "required": true
+    },
+    "lat": {
+      "type": "number",
+      "required": true
+    },"type":{
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
